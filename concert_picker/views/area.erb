@@ -1,0 +1,12 @@
+What area do you want to sit in?
+
+<form action='/order' method='get'>
+	<input type="radio" name="area_name" value="GA">GA<br>
+	<input type="radio" name="area_name" value="VIP">VIP<br>
+	
+	<input type="hidden" name="band_name" value="<%=@artist%>" >
+	<input type="hidden" name="venue_name" value="<%=@venue%>" >
+
+
+		<input type="submit">
+	</form>
